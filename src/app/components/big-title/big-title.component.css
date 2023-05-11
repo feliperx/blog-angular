@@ -1,0 +1,12 @@
+.container{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  color: #fff;
+  text-align: center;
+  font-size: 7rem;
+  margin: 2rem;
+}
