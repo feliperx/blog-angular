@@ -1,0 +1,23 @@
+.container{
+  border: 2px solid white;
+  width: 500px;
+  height:40rem;
+
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.date {
+  font-size: 1rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.title{
+  margin-bottom: 1rem;
+}
+.description > p {
+  font-size: 1rem;
+}

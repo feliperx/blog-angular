@@ -1,0 +1,7 @@
+.container {
+  margin: 4rem;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+}
