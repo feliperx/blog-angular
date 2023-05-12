@@ -1,0 +1,23 @@
+.container {
+  height: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar > img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.content {
+  margin-left: 2rem;
+}
+
+.navigation-pages > span {
+  margin-right: 3rem;
+}
+
+.social-media {
+
+}
