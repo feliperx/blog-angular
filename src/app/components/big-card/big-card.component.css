@@ -1,6 +1,6 @@
 .container{
   border: 2px solid white;
-  width: 500px;
+  width: 30rem;
   height:40rem;
 
 }
@@ -8,6 +8,11 @@
 .image {
   display: flex;
   justify-content: center;
+}
+
+.image > img {
+  width: 100%;
+  min-width: 30rem;
 }
 
 .date {

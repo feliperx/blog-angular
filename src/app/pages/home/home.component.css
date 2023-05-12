@@ -4,4 +4,17 @@
 .content{
   display: flex;
   flex-direction: row;
+  margin-top: 2rem;
+}
+
+.main-article {
+
+}
+
+.others-article {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }

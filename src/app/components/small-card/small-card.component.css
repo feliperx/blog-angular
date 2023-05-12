@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 50rem;
+}
+
+.content {
+  margin-left: 1rem;
+}
+
+.image {
+  width: 30rem;
+}
+
+
+.image > img {
+  width: 100%;
+}
+
+
+.date > span {
+  font-size: 1rem;
+  margin-top: 5px;
+
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+hr {
+  margin-top: 1rem;
+}
