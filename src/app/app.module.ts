@@ -10,6 +10,8 @@ import {BigTitleComponent} from './components/big-title/big-title.component';
 import {MenuBarComponent} from './components/menu-bar/menu-bar.component';
 import {BigCardComponent} from './components/big-card/big-card.component';
 import {SmallCardComponent} from './components/small-card/small-card.component';
+import { LineDividerComponent } from './components/line-divider/line-divider.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,8 @@ import {SmallCardComponent} from './components/small-card/small-card.component';
     BigTitleComponent,
     MenuBarComponent,
     BigCardComponent,
-    SmallCardComponent
+    SmallCardComponent,
+    LineDividerComponent
   ],
   imports: [
     BrowserModule,
