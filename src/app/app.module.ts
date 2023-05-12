@@ -11,16 +11,18 @@ import {MenuBarComponent} from './components/menu-bar/menu-bar.component';
 import {BigCardComponent} from './components/big-card/big-card.component';
 import {SmallCardComponent} from './components/small-card/small-card.component';
 import { LineDividerComponent } from './components/line-divider/line-divider.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     BigTitleComponent,
     MenuBarComponent,
     BigCardComponent,
     SmallCardComponent,
-    LineDividerComponent
+    LineDividerComponent,
+    HomeComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
