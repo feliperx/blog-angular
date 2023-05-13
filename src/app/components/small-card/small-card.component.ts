@@ -7,6 +7,7 @@ import { Component,Input } from '@angular/core';
 })
 export class SmallCardComponent {
 
+  @Input() id:string = '0';
   @Input() imageUrl:string='https://www.cbvl.esp.br/upload/post/default.jpg';
   @Input() title:string = 'Titulo';
   @Input() date:string = 'data';
