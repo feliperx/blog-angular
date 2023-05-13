@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.image {
+  margin-top: 1rem;
+}
+
+.image > img {
+  width: 500px;
+  height: 300px;
+  max-width: 500px;
+  border: 2px solid antiquewhite;
+}
+
+
+.title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.line-diviser {
+  width: 30rem;
+}
+
+.content {
+  margin-top: 2rem;
+
+}

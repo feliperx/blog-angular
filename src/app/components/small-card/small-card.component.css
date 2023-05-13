@@ -1,7 +1,7 @@
 .container{
   display: flex;
   flex-direction: row;
-  width: 50rem;
+  width: 700px;
 }
 
 .content {
@@ -10,8 +10,8 @@
 }
 
 .image > img {
-  width: 300px;
-  height: 200px;
+  width: 275px;
+  height: 175px;
 }
 
 

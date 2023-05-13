@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-content',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent {
-
+  @Input() imageUrl: string = 'https://www.cbvl.esp.br/upload/post/default.jpg';
+  @Input() title: string = 'Titulo';
+  @Input() articleContent = 'Conteudo do artigo'
 }

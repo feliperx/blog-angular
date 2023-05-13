@@ -1,1 +1,17 @@
-<p>content works!</p>
+<div class="container">
+  <a [routerLink]="['']">< Voltar</a>
+  <div class="image">
+    <img src={{imageUrl}} alt=""/>
+
+  </div>
+  <div class="title">
+    <h1>{{title}}</h1>
+
+  </div>
+  <div class="line-diviser">
+    <app-line-divider/>
+  </div>
+  <div class="content">
+    <p>{{articleContent}}</p>
+  </div>
+</div>
